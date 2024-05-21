@@ -1,0 +1,160 @@
+/* .neonText {
+    color: #fff;
+    text-shadow: 
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px orange,
+        0 0 82px orange,
+        0 0 92px orange,
+        0 0 102px orange,
+        0 0 151px orange;
+    font-size: 50px;
+}
+
+h2 {
+    -webkit-animation: glow 0.50s ease-in-out infinite alternate-reverse;
+    animation: glow 0.50s ease-in-out infinite alternate-reverse;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+@keyframes glow {
+    100% {
+        text-shadow: 
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px orange,
+            0 0 80px orange,
+            0 0 90px orange,
+            0 0 100px orange,
+            0 0 150px orange;
+    }
+    0% {
+        text-shadow: 
+            0 0 4px #fff,
+            0 0 10px #fff,
+            0 0 18px #fff,
+            0 0 38px orange,
+            0 0 73px orange,
+            0 0 80px orange,
+            0 0 94px orange,
+            0 0 140px orange;
+    }
+}
+
+@-webkit-keyframes glow {
+    100% {
+        text-shadow: 
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px orange,
+            0 0 80px orange,
+            0 0 90px orange,
+            0 0 100px orange,
+            0 0 150px orange;
+    }
+    0% {
+        text-shadow: 
+            0 0 4px #fff,
+            0 0 10px #fff,
+            0 0 18px #fff,
+            0 0 38px orange,
+            0 0 73px orange,
+            0 0 80px orange,
+            0 0 94px orange,
+            0 0 140px orange;
+    }
+} */
+
+
+/* .neonText{
+    color: orange;
+    text-shadow: 
+    0 0 7px orange,
+    0 0 10px orange,
+    0 0 21px orange,
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff,
+}
+h2{
+    -webkit-animation: glow 0.50s ease ease-in-out infinite alternate-reverse;
+    animation: glow 0.11s ease ease-in-out infinite ;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+@keyframes glow {
+    100%{
+        text-shadow: 
+        0 0 4px orange,
+        0 0 11px orange,
+        0 0 19px orange,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 90px #fff,
+        0 0 100px #fff,
+        0 0 150px #fff,
+    }
+    0%{
+        text-shadow: 
+        0 0 4px orange,
+        0 0 10px orange,
+        0 0 18px orange,
+        0 0 38px #fff,
+        0 0 73px #fff,
+        0 0 80px #fff,
+        0 0 94px #fff,
+        0 0 140px #fff,
+    }
+}
+
+@keyframes glow {
+    100%{
+        text-shadow: 
+        0 0 4px orange,
+        0 0 11px orange,
+        0 0 19px orange,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 90px #fff,
+        0 0 100px #fff,
+        0 0 150px #fff,
+    }
+    0%{
+        text-shadow: 
+        0 0 4px orange,
+        0 0 10px orange,
+        0 0 18px orange,
+        0 0 38px #fff,
+        0 0 73px #fff,
+        0 0 80px #fff,
+        0 0 94px #fff,
+        0 0 140px #fff,
+    }
+} */
+body{
+    background-color: black;
+}
+
+
+h2 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    text-shadow: 0px -1px 2px white, 0px -3px 6px rgba(242, 125, 12, 1), 0px -6px 12px rgba(255, 150, 100, 1), 0px -10px 20px rgba(242, 125, 12, 1), 0px -15px 30px rgba(255, 50, 50, 1), 0px -21px 42px rgba(240, 127, 19, 1);
+    -webkit-animation: effect 0.01s ease infinite, colorchange 10s linear infinite;
+    animation: effect 0.01s ease infinite, colorchange 10s linear infinite;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
